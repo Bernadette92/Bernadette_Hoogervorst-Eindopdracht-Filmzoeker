@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: xx-large;
+}
+
+ul li {
+  list-style: none;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+.options {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+.filmList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+}
+li {
+  display: inline-flex;
+}
+img {
+  position: relative;
+  width: 300px;
+  margin: 10px;
+}
+
+/* .menu {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: darkblue;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.menu a {
+  float: left;
+  padding-right: 10px;
+  text-align: left;
+}
+li .currentPage {
+  background-color: lightskyblue;
+}
+
+input {
+  float: right;
+}
+input:focus {
+  outline: none;
+  border-color: aqua;
+}
+
+.news {
+  list-style-type: none;
+}
+
+.nos:hover {
+  color: lightskyblue;
+  font-weight: bold;
+}
+
+.google:active {
+  color: red;
+  font-style: italic;
+}
+
+.NRC:visited {
+  color: yellow;
+} */
